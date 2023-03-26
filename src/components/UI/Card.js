@@ -7,6 +7,7 @@ const Card = props => {
   return(
     <div className={` ${classes.card} ${props.classesName}`}>{props.children}</div>
   )
+  
 };
 
 export default Card;
